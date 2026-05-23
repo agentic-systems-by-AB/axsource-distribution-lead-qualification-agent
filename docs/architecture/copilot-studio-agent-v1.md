@@ -219,3 +219,76 @@ No external or shared-data action executes without explicit human confirmation.
 Responsible AI rule:
 
 Human approval is mandatory and cannot be disabled in v1.
+
+## Topic Inventory
+
+Topic 1
+
+Lead Qualification
+
+Purpose:
+
+Evaluate lead using AXSource BANT+
+
+
+Topic 2
+
+Channel Classification
+
+Purpose:
+
+Determine inbound, partner, direct, or hybrid source
+
+
+Topic 3
+
+Branch Routing Recommendation
+
+Purpose:
+
+Recommend territory and ownership
+
+
+Topic 4
+
+Conflict Detection
+
+Purpose:
+
+Detect partner and agreement conflicts
+
+
+Topic 5
+
+Credit Eligibility Review
+
+Purpose:
+
+Review internal customer credit indicators
+
+
+Topic 6
+
+Confidence Evaluation
+
+Purpose:
+
+Determine confidence band and missing information
+
+
+Topic 7
+
+Approval Request
+
+Purpose:
+
+Generate seller approval experience
+
+
+Topic 8
+
+Follow-up Recommendation
+
+Purpose:
+
+Prepare seller next steps and draft outreach
