@@ -280,3 +280,45 @@ Support and workflow notifications
 Rule:
 
 No flow or agent behavior should contain tenant-specific hardcoded values.
+
+## Connection Reference Usage
+
+CR_DATAVERSE
+
+Used by:
+
+- Lead Qualification Trigger
+- Qualification Audit Workflow
+- Qualification History persistence
+
+
+CR_TEAMS
+
+Used by:
+
+- Approval adaptive cards
+- Seller notifications
+
+
+CR_OUTLOOK
+
+Used by:
+
+- Draft outreach generation
+
+
+CR_APPROVALS
+
+Used by:
+
+- Human approval workflow
+
+
+Rule:
+
+Connection references must be customer-owned and resolved during managed solution installation.
+
+
+Rule:
+
+No personal user connections permitted.
