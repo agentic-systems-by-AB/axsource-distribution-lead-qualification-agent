@@ -76,3 +76,39 @@ User experience:
 Rule:
 
 Dynamics remains the system of engagement.
+
+## Dynamics 365 Sales Surfacing
+
+Primary location:
+
+Lead form
+
+
+Embedded components:
+
+- Qualification summary
+- Confidence score
+- Qualification narrative
+- Recommended branch
+- Recommended owner
+- Conflict indicators
+- Credit findings
+- Seller recommendations
+
+
+Supporting components:
+
+- Qualification History subgrid
+- Related Tasks subgrid
+- Approval status section
+
+
+Future candidates:
+
+- Sales workspace dashboard
+- Seller manager dashboard
+
+
+Rule:
+
+Seller should not leave Lead workspace to review qualification output.
