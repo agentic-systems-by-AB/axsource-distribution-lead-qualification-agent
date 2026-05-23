@@ -127,3 +127,59 @@ axs_QualificationConfiguration
 Purpose:
 
 Stores distribution-specific BANT+ settings and configurable scoring rules
+
+## Entity Relationships
+
+Lead
+
+1:N
+
+axs_QualificationHistory
+
+Reason:
+
+A lead may be evaluated multiple times
+
+
+Account
+
+1:N
+
+axs_DistributorPartner
+
+Reason:
+
+An account can participate in multiple partner relationships
+
+
+Team
+
+1:N
+
+axs_BranchTerritory
+
+Reason:
+
+Branch routing and ownership
+
+
+Lead
+
+N:1
+
+axs_ChannelClassification
+
+Reason:
+
+Each lead receives one channel classification
+
+
+axs_QualificationConfiguration
+
+1:N
+
+axs_QualificationHistory
+
+Reason:
+
+Qualification runs should retain configuration context
