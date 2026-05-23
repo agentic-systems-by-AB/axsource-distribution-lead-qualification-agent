@@ -1,0 +1,14 @@
+name: Solution Checker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Placeholder
+        run: echo "Solution Checker workflow to be implemented in Step 6"
