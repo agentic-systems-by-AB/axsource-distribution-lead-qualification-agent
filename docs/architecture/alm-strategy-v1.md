@@ -305,3 +305,68 @@ Use Dataverse patch solutions only for critical fixes.
 Rule:
 
 Every AppSource submission increments version.
+
+
+## Promotion and Deployment Rules
+
+Promotion path:
+
+DEV
+
+↓
+
+TEST
+
+↓
+
+PROD
+
+↓
+
+CLEAN
+
+↓
+
+AppSource
+
+
+Promotion rules:
+
+DEV:
+
+Unmanaged solution only
+
+
+TEST:
+
+Managed solution imports only
+
+
+PROD:
+
+Managed solution imports only
+
+
+CLEAN:
+
+Managed solution imports only
+
+
+Deployment rules:
+
+- No direct production edits
+- No unmanaged imports outside DEV
+- No work in Default Solution
+- No manual fixes after CLEAN import
+- No personal connections
+- No environment-specific values committed to source control
+
+
+Validation gate:
+
+Every release must successfully install into CLEAN before AppSource submission.
+
+
+Certification rule:
+
+Installation failures in CLEAN are treated as defects.
