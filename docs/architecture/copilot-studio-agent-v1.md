@@ -334,3 +334,124 @@ Guardrails:
 - Missing information reduces confidence
 - Dataverse overrides public web results
 - Human approval boundaries cannot be bypassed
+
+## Agent Actions Inventory
+
+Action 1
+
+Name:
+
+Retrieve Lead Context
+
+Type:
+
+Dataverse action
+
+Purpose:
+
+Read Lead, Account, Contact and Product context
+
+
+Action 2
+
+Name:
+
+Execute BANT+ Evaluation
+
+Type:
+
+Agent reasoning
+
+Purpose:
+
+Compute qualification score
+
+
+Action 3
+
+Name:
+
+Execute Channel Classification
+
+Type:
+
+Agent reasoning
+
+Purpose:
+
+Determine source classification
+
+
+Action 4
+
+Name:
+
+Recommend Branch Assignment
+
+Type:
+
+Dataverse lookup
+
+Purpose:
+
+Recommend routing
+
+
+Action 5
+
+Name:
+
+Persist Qualification History
+
+Type:
+
+Dataverse create
+
+Purpose:
+
+Create axs_QualificationHistory record
+
+
+Action 6
+
+Name:
+
+Create Seller Task
+
+Type:
+
+Dataverse create
+
+Purpose:
+
+Create audit and follow-up activity
+
+
+Action 7
+
+Name:
+
+Generate Approval Request
+
+Type:
+
+Power Automate
+
+Purpose:
+
+Send approval experience
+
+
+Action 8
+
+Name:
+
+Generate Draft Outreach
+
+Type:
+
+Power Automate
+
+Purpose:
+
+Prepare seller-reviewed message
