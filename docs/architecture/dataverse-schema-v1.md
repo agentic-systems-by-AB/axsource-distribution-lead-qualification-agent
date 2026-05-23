@@ -183,3 +183,140 @@ axs_QualificationHistory
 Reason:
 
 Qualification runs should retain configuration context
+
+## axs_QualificationHistory Columns
+
+qualificationhistoryid
+
+Type:
+
+GUID
+
+Purpose:
+
+Primary key
+
+
+axs_name
+
+Type:
+
+Text
+
+Purpose:
+
+Qualification run name
+
+
+axs_lead
+
+Type:
+
+Lookup → Lead
+
+Purpose:
+
+Related lead
+
+
+axs_qualificationscore
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Overall qualification score
+
+
+axs_confidencescore
+
+Type:
+
+Decimal
+
+Purpose:
+
+Confidence level
+
+
+axs_confidenceband
+
+Type:
+
+Choice
+
+Values:
+
+High
+
+Medium
+
+Low
+
+
+axs_qualificationnarrative
+
+Type:
+
+Multiline text
+
+Purpose:
+
+Generated explanation
+
+
+axs_recommendedbranch
+
+Type:
+
+Lookup → Team
+
+Purpose:
+
+Suggested branch assignment
+
+
+axs_recommendedowner
+
+Type:
+
+Lookup → System User
+
+Purpose:
+
+Suggested seller
+
+
+axs_channelconflictfound
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Conflict detection result
+
+
+axs_crediteligible
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Eligibility status
+
+
+axs_runcompletedon
+
+Type:
+
+Date Time
+
+Purpose:
+
+Audit timestamp
