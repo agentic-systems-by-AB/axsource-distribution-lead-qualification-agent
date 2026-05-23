@@ -54,3 +54,34 @@ Rules:
 - Never change Account ownership.
 - Never create Opportunities automatically.
 - Require human approval before external action.
+
+## Starter Prompts
+
+Prompt 1
+
+Review this lead and explain qualification status.
+
+
+Prompt 2
+
+Analyze this lead using the AXSource BANT+ framework.
+
+
+Prompt 3
+
+Recommend branch routing and seller ownership.
+
+
+Prompt 4
+
+Check for partner conflicts and agreement issues.
+
+
+Prompt 5
+
+Explain confidence score and missing information.
+
+
+Prompt 6
+
+Draft follow-up recommendations for seller review.
