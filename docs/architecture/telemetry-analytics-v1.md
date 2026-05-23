@@ -171,3 +171,46 @@ Demonstrate customer ROI and AppSource value narrative.
 Rule:
 
 KPIs should be measurable using customer-owned telemetry only.
+
+## Application Insights Strategy
+
+Status:
+
+Optional
+
+
+Ownership:
+
+Customer tenant
+
+
+Usage:
+
+Advanced diagnostics and support investigations
+
+
+Events eligible for export:
+
+- qualification execution
+- approval workflow events
+- flow failures
+- confidence calculations
+- retry events
+
+
+Not exported:
+
+- prompt history
+- hidden AI state
+- cross-customer telemetry
+- customer business data
+
+
+Rule:
+
+Application Insights configuration is customer-controlled.
+
+
+Rule:
+
+The product must function without Application Insights enabled.
