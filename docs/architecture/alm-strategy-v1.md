@@ -247,3 +247,61 @@ Create AppSource release artifacts
 Rule:
 
 Pipeline execution uses service principal authentication only.
+
+
+## Solution Versioning Strategy
+
+Format:
+
+Major.Minor.Build.Revision
+
+
+Examples:
+
+1.0.0.0
+
+1.1.0.0
+
+1.1.1.0
+
+
+Version rules:
+
+Major:
+
+Breaking changes
+
+
+Minor:
+
+Quarterly feature release
+
+
+Build:
+
+Feature additions and fixes
+
+
+Revision:
+
+Hotfix only
+
+
+Release cadence:
+
+Quarterly
+
+
+Hotfix cadence:
+
+As needed
+
+
+Patch rule:
+
+Use Dataverse patch solutions only for critical fixes.
+
+
+Rule:
+
+Every AppSource submission increments version.
