@@ -173,3 +173,43 @@ AXSource solution should not create Business Units automatically.
 Rule:
 
 Respect customer organizational hierarchy.
+
+## Data Loss Prevention Strategy
+
+Default DLP posture:
+
+Restrictive by default
+
+
+Business connector group:
+
+- Microsoft Dataverse
+- Microsoft Teams
+- Office 365 Outlook
+- Approvals
+- Microsoft Copilot Studio
+
+
+Blocked connector group:
+
+- HTTP
+- Custom connectors
+- Dropbox
+- Google Drive
+- Twitter/X
+- Facebook
+- Consumer connectors
+
+
+Rules:
+
+No custom connector dependency in v1
+
+No anonymous outbound connections
+
+No personal connector usage
+
+
+Governance rule:
+
+Customer administrators retain ownership of DLP policies.
