@@ -131,3 +131,52 @@ No honor-system licensing
 Rule:
 
 No custom Dataverse licensing implementation
+
+## Marketplace Positioning
+
+Primary buyer:
+
+Vice President of Sales Operations
+
+Secondary buyers:
+
+- Director of Inside Sales
+- Head of Branch Operations
+- RevOps leader
+
+
+Technical evaluator:
+
+RevOps and IT
+
+
+Executive sponsor:
+
+Chief Revenue Officer
+
+
+Positioning statement:
+
+Distribution-specific lead qualification for Dynamics 365 Sales.
+
+
+Differentiators:
+
+- Distribution BANT+
+- Branch routing
+- Channel conflict detection
+- Credit eligibility checks
+- Product and SKU intelligence
+- Human-in-the-loop approval
+
+
+Coexistence position:
+
+Complements Microsoft's Sales Qualification Agent.
+
+Does not replace first-party Sales agents.
+
+
+Rule:
+
+Messaging must emphasize specialization, not replacement.
