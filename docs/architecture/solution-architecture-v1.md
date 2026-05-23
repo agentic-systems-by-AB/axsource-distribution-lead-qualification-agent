@@ -190,3 +190,56 @@ AXSource does NOT host:
 Trust model:
 
 Customer-tenant execution only
+
+## Deployment Topology
+
+Development:
+
+AXS-DISTAI-DEV
+
+
+Testing:
+
+AXS-DISTAI-TST
+
+
+Production:
+
+AXS-DISTAI-PRD
+
+
+Customer Install Validation:
+
+AXS-DISTAI-CLEAN
+
+
+Demo:
+
+AXS-DISTAI-DEMO
+
+
+Deployment model:
+
+Managed solution only
+
+
+Promotion path:
+
+DEV
+
+↓
+
+TEST
+
+↓
+
+PROD
+
+↓
+
+AppSource package
+
+
+Validation rule:
+
+Every release must install successfully into CLEAN with zero manual configuration fixes.
