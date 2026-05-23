@@ -131,3 +131,51 @@ Excluded sources:
 - External APIs
 - Custom connectors
 - Customer-managed AI endpoints
+
+## Confidence Model
+
+Purpose:
+
+Confidence reduces autonomy when evidence quality is weak.
+
+Confidence inputs:
+
+- Lead completeness
+- Account completeness
+- Product/SKU identification quality
+- Public web grounding quality
+- Branch routing certainty
+- Channel conflict certainty
+- Credit eligibility evidence
+
+
+High confidence
+
+Behavior:
+
+- Present complete recommendation
+- Ready for seller approval
+- Allow one-click approval flow
+
+
+Medium confidence
+
+Behavior:
+
+- Present recommendation
+- Highlight weak evidence
+- Request seller review
+
+
+Low confidence
+
+Behavior:
+
+- Do not recommend action
+- Request missing information
+- Suspend downstream actions
+
+
+Rule:
+
+Confidence never increases autonomy beyond human approval boundaries.
