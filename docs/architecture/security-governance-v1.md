@@ -213,3 +213,55 @@ No personal connector usage
 Governance rule:
 
 Customer administrators retain ownership of DLP policies.
+
+## Responsible AI Controls
+
+Primary controls:
+
+Human approval before external action
+
+Confidence downgrade behavior
+
+Dataverse authoritative grounding
+
+Explainable qualification narratives
+
+
+Required safeguards:
+
+- No fabricated data
+- No autonomous email sending
+- No autonomous Opportunity creation
+- No autonomous ownership reassignment
+- Missing evidence lowers confidence
+
+
+Human review boundaries:
+
+Required:
+
+- outbound communication
+- owner changes
+- account modifications
+- contact modifications
+
+
+Audit requirements:
+
+Persist:
+
+- qualification score
+- confidence score
+- narrative
+- approval outcome
+- workflow execution history
+
+
+Rule:
+
+Human approval cannot be disabled in v1.
+
+
+Rule:
+
+AI recommendations must remain explainable.
