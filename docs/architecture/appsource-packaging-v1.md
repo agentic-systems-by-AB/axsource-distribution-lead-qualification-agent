@@ -221,3 +221,59 @@ Required support artifacts:
 Rule:
 
 Submission artifacts must exist before certification submission.
+
+## Support and Operational Model
+
+Support channels:
+
+- Microsoft Partner Center support
+- Shared AXSource support mailbox
+
+
+Response targets:
+
+Severity 1:
+
+4 business hours
+
+
+Standard issues:
+
+1 business day
+
+
+Operating model:
+
+Dedicated product ownership alongside consulting work
+
+
+Support capacity:
+
+Soft limit:
+
+15 active customers
+
+
+Capacity ceiling:
+
+20 active customers
+
+
+Escalation rule:
+
+Exceeding 20 active customers requires organizational review.
+
+
+Release cadence:
+
+Quarterly
+
+
+Hotfix strategy:
+
+Dataverse patch solutions
+
+
+Rule:
+
+Support commitments published in AppSource listing and support guide.
