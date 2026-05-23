@@ -87,3 +87,70 @@ GitHub
 GitHub Actions
 
 Managed solution deployment
+
+## End-to-End Flow
+
+Step 1
+
+Lead created or updated in Dynamics 365 Sales
+
+
+Step 2
+
+Power Automate trigger executes
+
+
+Step 3
+
+Copilot Studio agent retrieves:
+
+- Lead
+- Account
+- Contact
+- Product
+- Price List
+- Territory context
+
+
+Step 4
+
+Public web grounding enriches context
+
+
+Step 5
+
+Agent executes:
+
+Distribution BANT+
+
+Scoring
+
+Channel classification
+
+Branch recommendation
+
+Confidence evaluation
+
+
+Step 6
+
+Agent writes:
+
+- qualification narrative
+- confidence score
+- recommendation
+- qualification history
+
+
+Step 7
+
+Human approval required
+
+
+Step 8
+
+Approved actions execute:
+
+- draft email
+- task creation
+- follow-up activities
