@@ -265,3 +265,50 @@ Human approval cannot be disabled in v1.
 Rule:
 
 AI recommendations must remain explainable.
+
+## Audit and Logging Governance
+
+Customer-owned telemetry only
+
+
+Audit events:
+
+Qualification execution
+
+Confidence calculation
+
+Approval request generated
+
+Approval outcome
+
+Task creation
+
+Draft outreach generation
+
+Flow failures
+
+
+Persist to:
+
+- axs_QualificationHistory
+- Dataverse audit logs
+- Copilot Studio analytics
+- Application Insights (customer optional)
+
+
+Do not persist:
+
+- hidden AI memory
+- cross-tenant telemetry
+- AXSource centralized analytics
+- customer prompts outside customer tenant
+
+
+Rule:
+
+AXSource receives telemetry only when voluntarily shared during support.
+
+
+Rule:
+
+No cross-customer data aggregation in v1.
