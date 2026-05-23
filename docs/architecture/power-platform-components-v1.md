@@ -322,3 +322,72 @@ Connection references must be customer-owned and resolved during managed solutio
 Rule:
 
 No personal user connections permitted.
+
+## Dataverse Interaction Patterns
+
+Read operations:
+
+Allowed:
+
+- Lead
+- Account
+- Contact
+- Product
+- Price List
+- Activity
+- Team
+- System User
+- AXSource custom entities
+
+
+Write operations:
+
+Allowed:
+
+Lead:
+
+- qualification fields
+- recommendation fields
+- confidence outputs
+
+
+axs_QualificationHistory:
+
+Create
+
+Update
+
+
+Activity:
+
+Create:
+
+- Task
+- Note
+
+
+Prohibited writes:
+
+Account:
+
+No autonomous updates
+
+
+Contact:
+
+No autonomous updates
+
+
+Opportunity:
+
+No autonomous creation
+
+
+Owner reassignment:
+
+Approval required
+
+
+Rule:
+
+Shared master data requires human review.
