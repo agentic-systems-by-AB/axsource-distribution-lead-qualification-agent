@@ -39,14 +39,18 @@ Status: Active
 
 ## Pending
 
+[x] Power Platform access validation
+
+[x] Copilot Studio access validation
+
+[x] Environment capability validation
+
 [ ] Microsoft admin access
 
-[ ] Managed environments
+[ ] Managed environments creation
 
-[ ] Service principal
+[ ] Service principal provisioning
 
 [ ] Partner Center audit
 
 [ ] ISV Success verification
-
-[ ] Power Platform access validation
