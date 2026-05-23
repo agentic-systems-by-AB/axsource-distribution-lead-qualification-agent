@@ -25,3 +25,54 @@ Future channels:
 - Microsoft 365 Copilot
 - Outlook surfaces
 - Additional Copilot integrations
+
+## Primary User Experience Flows
+
+Dynamics 365 Sales
+
+Purpose:
+
+Primary seller workspace
+
+
+User experience:
+
+- View qualification results
+- View confidence score
+- View qualification narrative
+- View routing recommendations
+- Review suggested next actions
+
+
+Microsoft Teams
+
+Purpose:
+
+Approval and notification surface
+
+
+User experience:
+
+- Approval adaptive cards
+- Qualification notifications
+- Follow-up reminders
+
+
+Copilot Studio Embedded Experience
+
+Purpose:
+
+Interactive qualification assistant
+
+
+User experience:
+
+- Ask qualification questions
+- Request explanations
+- Review BANT+ evaluation
+- Request lead analysis
+
+
+Rule:
+
+Dynamics remains the system of engagement.
