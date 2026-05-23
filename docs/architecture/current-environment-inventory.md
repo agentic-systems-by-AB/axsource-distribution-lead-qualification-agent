@@ -1,0 +1,46 @@
+# Current Environment Inventory
+
+Status: Draft
+
+Observed environments:
+
+Sales Trial
+Type: Trial
+
+AX5D365AI2026
+Type: Sandbox
+
+axt2-sandbox
+Type: Sandbox
+
+AX/AGPL_CRM2023
+Type: Production
+
+AXSource (default)
+Type: Default
+
+
+Step 0 findings:
+
+Power Platform access:
+Verified
+
+Environment creation:
+Verified
+
+Dataverse creation:
+Verified
+
+Copilot Studio access:
+Verified
+
+
+Pending:
+
+Determine whether existing environments can be reused or whether dedicated ISV environments should be created:
+
+AXS-DISTAI-DEV
+AXS-DISTAI-TST
+AXS-DISTAI-PRD
+AXS-DISTAI-CLEAN
+AXS-DISTAI-DEMO
