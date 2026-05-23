@@ -180,3 +180,44 @@ Does not replace first-party Sales agents.
 Rule:
 
 Messaging must emphasize specialization, not replacement.
+
+## Submission Artifact Inventory
+
+Required documentation:
+
+- User Guide
+- Administrator Guide
+- Privacy Policy
+- Terms of Use
+- Support Process
+- Responsible AI statement
+- Release notes
+
+
+Required media:
+
+- AppSource logo
+- Product icons
+- Screenshots
+- Demo video
+- Product overview deck
+
+
+Required technical assets:
+
+- Managed solution package
+- License configuration
+- Solution Checker report
+- CLEAN environment validation evidence
+
+
+Required support artifacts:
+
+- Shared AXSource support mailbox
+- Support response policy
+- Escalation process
+
+
+Rule:
+
+Submission artifacts must exist before certification submission.
