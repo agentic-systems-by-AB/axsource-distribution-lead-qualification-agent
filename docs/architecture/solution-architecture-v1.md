@@ -282,3 +282,29 @@ v2
 Rule:
 
 No external dependency becomes a runtime requirement in v1.
+
+## Assumptions and Constraints
+
+Assumptions:
+
+- Customer uses Dynamics 365 Sales
+- Dataverse is available
+- Copilot Studio licensing exists
+- Dynamics Sales entities are enabled
+- Customer permits public web grounding
+- Customer admins can assign licenses
+
+Constraints:
+
+- Single builder operating model
+- Quarterly release cadence
+- Maximum support target: 20 active customers
+- No AXSource-hosted infrastructure
+- Human approval required before external actions
+- North America only for v1
+- Managed solution deployment only
+- No custom connector dependency
+
+Operational constraint:
+
+Design decisions should favor low support overhead over feature breadth.
