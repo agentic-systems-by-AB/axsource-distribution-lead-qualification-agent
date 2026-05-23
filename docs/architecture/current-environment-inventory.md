@@ -94,3 +94,34 @@ Decision:
 Do not use the default environment for product development.
 
 Dedicated ISV environments remain required.
+
+## axt2-sandbox Assessment
+
+Environment type:
+Sandbox
+
+Dataverse:
+Present
+
+Managed Environment:
+No
+
+Security Group:
+Not assigned
+
+Auditing:
+Disabled
+
+Administration mode:
+Enabled
+
+Finance and Operations:
+Linked
+
+Decision:
+
+Do not reuse for ISV development.
+
+Reason:
+
+Existing shared workload and incompatible with target product topology.
