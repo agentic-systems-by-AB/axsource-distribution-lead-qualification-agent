@@ -91,3 +91,39 @@ Team
 Purpose:
 
 Branch and routing logic
+
+## AXSource Custom Entities
+
+axs_QualificationHistory
+
+Purpose:
+
+Stores qualification runs, confidence scores, narratives, and audit history
+
+
+axs_DistributorPartner
+
+Purpose:
+
+Represents distributor partner and channel relationships
+
+
+axs_BranchTerritory
+
+Purpose:
+
+Stores branch ownership, routing rules, and territory assignments
+
+
+axs_ChannelClassification
+
+Purpose:
+
+Stores direct, inbound, partner, and channel classifications
+
+
+axs_QualificationConfiguration
+
+Purpose:
+
+Stores distribution-specific BANT+ settings and configurable scoring rules
