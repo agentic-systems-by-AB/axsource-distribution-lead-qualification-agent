@@ -156,3 +156,51 @@ Rule:
 Teams actions execute workflow responses only.
 
 No business logic executes inside Teams.
+
+## Microsoft First-Party Agent Coexistence
+
+Microsoft baseline:
+
+Sales Qualification Agent
+
+Status:
+
+Generally Available
+
+
+AXSource positioning:
+
+Distribution-specialized extension
+
+
+Microsoft responsibilities:
+
+- Generic lead qualification
+- General enrichment
+- Standard qualification workflows
+
+
+AXSource responsibilities:
+
+- Distribution-specific BANT+
+- Branch routing
+- Partner conflict detection
+- Credit eligibility checks
+- Channel classification
+- Distribution-specific recommendations
+
+
+Coexistence rule:
+
+AXSource augments Microsoft qualification behavior.
+
+AXSource does not replace first-party Sales agents.
+
+
+Future compatibility:
+
+Sales Opportunity Agent
+
+Sales Research Agent
+
+Sales Close Agent
