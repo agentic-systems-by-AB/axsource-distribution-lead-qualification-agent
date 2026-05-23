@@ -84,3 +84,43 @@ Measure qualification behavior and recommendation patterns
 Rule:
 
 Telemetry must support explainability and troubleshooting.
+
+## Workflow Operational Telemetry
+
+Workflow metrics:
+
+- Flow execution count
+- Flow success rate
+- Flow failure count
+- Approval completion rate
+- Approval timeout count
+- Draft generation count
+- Retry count
+
+
+Failure telemetry:
+
+Capture:
+
+- flow name
+- execution timestamp
+- lead identifier
+- failure category
+- retry status
+
+
+Persisted sources:
+
+- Power Automate run history
+- axs_QualificationHistory
+- Dataverse audit logs
+
+
+Purpose:
+
+Support troubleshooting and operational support.
+
+
+Rule:
+
+Failures should be diagnosable without AXSource-hosted infrastructure.
