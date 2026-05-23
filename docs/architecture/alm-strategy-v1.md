@@ -102,3 +102,64 @@ Characteristics:
 - scripted demonstrations
 - sample distributor data
 - demo scenarios
+
+
+## Git Branching Strategy
+
+Primary branches:
+
+main
+
+Purpose:
+
+Production-ready state
+
+
+develop
+
+Purpose:
+
+Active development
+
+
+Feature branches:
+
+feature/<name>
+
+
+Examples:
+
+feature/qualification-history
+
+feature/approval-flow
+
+feature/copilot-topics
+
+
+Release branches:
+
+release/<version>
+
+
+Examples:
+
+release/v1.0.0
+
+
+Hotfix branches:
+
+hotfix/<version>
+
+
+Examples:
+
+hotfix/v1.0.1
+
+
+Rules:
+
+- Protect main branch
+- Pull requests required into main
+- No direct commits to main
+- Squash merge feature branches
+- One feature per branch
