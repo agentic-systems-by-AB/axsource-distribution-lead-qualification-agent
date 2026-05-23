@@ -662,3 +662,56 @@ Yes/No
 Purpose:
 
 Enable configuration profile
+
+## Naming and Solution Conventions
+
+Publisher Prefix:
+
+axs
+
+
+Solution Name:
+
+AXSDistributionLeadQualification
+
+
+Display Name:
+
+AXSource Distribution Lead Qualification Agent
+
+
+Schema naming rules:
+
+Tables:
+
+axs_<EntityName>
+
+
+Columns:
+
+axs_<ColumnName>
+
+
+Choices:
+
+axs_<ChoiceName>
+
+
+Relationships:
+
+axs_<Parent>_<Child>
+
+
+Environment variables:
+
+EV_<Name>
+
+
+Connection references:
+
+CR_<Name>
+
+
+Rule:
+
+No component created in Default Solution.
