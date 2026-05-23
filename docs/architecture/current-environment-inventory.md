@@ -44,3 +44,32 @@ AXS-DISTAI-TST
 AXS-DISTAI-PRD
 AXS-DISTAI-CLEAN
 AXS-DISTAI-DEMO
+
+## Managed Environment Findings
+
+Environment reviewed:
+
+AX5D365AI2026
+
+Findings:
+
+Managed Environment:
+No
+
+Security Group:
+Not assigned
+
+Auditing:
+Disabled
+
+Decision:
+
+Do not reuse existing AX environments for ISV product development.
+
+Create dedicated environments for:
+
+- AXS-DISTAI-DEV
+- AXS-DISTAI-TST
+- AXS-DISTAI-PRD
+- AXS-DISTAI-CLEAN
+- AXS-DISTAI-DEMO
