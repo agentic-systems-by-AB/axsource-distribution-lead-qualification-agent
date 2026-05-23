@@ -74,3 +74,60 @@ No AXSource-hosted processing
 Rule:
 
 No SaaS offer created for v1.
+
+## Licensing and Pricing
+
+Licensing model:
+
+Per user per month
+
+
+License enforcement:
+
+ISV App License Management
+
+
+License plans:
+
+Starter
+
+1–25 users
+
+
+Growth
+
+26–100 users
+
+
+Enterprise
+
+100+ users
+
+
+Primary licensed personas:
+
+- Inside seller
+- Branch representative
+- Sales manager
+
+
+Runtime behavior:
+
+Licensed users:
+
+Full functionality
+
+
+Unlicensed users:
+
+Display guidance and licensing message
+
+
+Rule:
+
+No honor-system licensing
+
+
+Rule:
+
+No custom Dataverse licensing implementation
