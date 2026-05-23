@@ -55,3 +55,32 @@ Customer tenant
 Rule:
 
 AXSource does not receive analytics automatically.
+
+## Qualification Telemetry
+
+Qualification metrics:
+
+- Qualification executions
+- Qualification completion rate
+- Qualification score distribution
+- Confidence score distribution
+- Branch recommendation frequency
+- Channel classification distribution
+- Conflict detection count
+- Credit eligibility outcomes
+
+
+Persisted sources:
+
+- axs_QualificationHistory
+- Dataverse audit data
+
+
+Purpose:
+
+Measure qualification behavior and recommendation patterns
+
+
+Rule:
+
+Telemetry must support explainability and troubleshooting.
