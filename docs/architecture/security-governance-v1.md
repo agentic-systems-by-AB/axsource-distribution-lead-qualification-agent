@@ -122,3 +122,54 @@ No Account ownership changes
 No Contact ownership changes
 
 No Opportunity creation
+
+## Business Unit Strategy
+
+Business Unit model:
+
+Customer-controlled
+
+
+Recommended structure:
+
+Corporate
+
+↓
+
+Region
+
+↓
+
+Branch
+
+
+Ownership model:
+
+Lead ownership:
+
+Seller or team owned
+
+
+Branch routing:
+
+Team ownership supported
+
+
+Qualification history:
+
+Parented to Lead
+
+
+Routing model:
+
+Branch territory records determine recommended ownership
+
+
+Rule:
+
+AXSource solution should not create Business Units automatically.
+
+
+Rule:
+
+Respect customer organizational hierarchy.
