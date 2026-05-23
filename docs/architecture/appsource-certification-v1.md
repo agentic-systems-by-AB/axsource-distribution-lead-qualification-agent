@@ -69,3 +69,52 @@ Product claims must match implemented behavior.
 Rule:
 
 Do not claim autonomous outreach.
+
+## Technical Validation Requirements
+
+Solution Checker:
+
+Required:
+
+Yes
+
+
+Requirements:
+
+- No Critical findings
+- No High findings
+- Medium findings reviewed
+- Low findings documented
+
+
+Validation environments:
+
+- TEST
+- CLEAN
+
+
+Validation activities:
+
+- Managed solution install
+- Upgrade validation
+- Environment variable validation
+- Connection reference validation
+- License validation
+
+
+Required evidence:
+
+- Solution Checker report
+- CLEAN import evidence
+- Installation screenshots
+- Validation notes
+
+
+Rule:
+
+No AppSource submission with unresolved Critical findings.
+
+
+Rule:
+
+CLEAN import failures block release.
