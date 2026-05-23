@@ -292,3 +292,45 @@ Follow-up Recommendation
 Purpose:
 
 Prepare seller next steps and draft outreach
+
+## Generative Orchestration Design
+
+Mode:
+
+Generative orchestration enabled
+
+
+Execution sequence:
+
+1. Trigger from Lead create/update
+
+2. Retrieve Dataverse context:
+
+- Lead
+- Account
+- Contact
+- Product
+- Team
+- Qualification configuration
+
+3. Execute:
+
+- BANT+ evaluation
+- Channel classification
+- Branch routing
+- Credit review
+- Conflict detection
+
+4. Execute confidence assessment
+
+5. Write qualification outputs
+
+6. Request approval if downstream action exists
+
+
+Guardrails:
+
+- Do not fabricate missing data
+- Missing information reduces confidence
+- Dataverse overrides public web results
+- Human approval boundaries cannot be bypassed
