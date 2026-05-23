@@ -85,3 +85,49 @@ Explain confidence score and missing information.
 Prompt 6
 
 Draft follow-up recommendations for seller review.
+
+## Knowledge Sources
+
+Authoritative sources:
+
+Dataverse:
+
+- Lead
+- Account
+- Contact
+- Product
+- Price List
+- Activity
+- System User
+- Team
+
+AXSource custom tables:
+
+- axs_QualificationHistory
+- axs_DistributorPartner
+- axs_BranchTerritory
+- axs_ChannelClassification
+- axs_QualificationConfiguration
+
+
+Supplementary source:
+
+Public web grounding
+
+
+Grounding rules:
+
+- Dataverse always wins over public web information.
+- Public web results are context only.
+- Public web information cannot determine qualification outcome.
+- Missing Dataverse information reduces confidence.
+- Public web data must never overwrite customer records.
+
+
+Excluded sources:
+
+- SharePoint
+- ERP systems
+- External APIs
+- Custom connectors
+- Customer-managed AI endpoints
