@@ -124,3 +124,50 @@ Support troubleshooting and operational support.
 Rule:
 
 Failures should be diagnosable without AXSource-hosted infrastructure.
+
+## Business KPI Model
+
+Primary KPIs:
+
+Lead response time reduction
+
+Qualification time reduction
+
+Qualified lead conversion increase
+
+Seller productivity increase
+
+Manual routing reduction
+
+Conflict detection effectiveness
+
+Approval completion rate
+
+Seller adoption rate
+
+
+Target measurements:
+
+Lead qualification turnaround:
+
+Baseline versus post-deployment
+
+
+Seller effort:
+
+Manual actions before versus after implementation
+
+
+Quality:
+
+Qualified lead acceptance rate
+
+
+Purpose:
+
+Demonstrate customer ROI and AppSource value narrative.
+
+
+Rule:
+
+KPIs should be measurable using customer-owned telemetry only.
