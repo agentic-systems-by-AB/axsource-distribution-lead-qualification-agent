@@ -529,3 +529,136 @@ Yes/No
 Purpose:
 
 Enable or disable classification
+
+## axs_QualificationConfiguration Columns
+
+qualificationconfigurationid
+
+Type:
+
+GUID
+
+Purpose:
+
+Primary key
+
+
+axs_name
+
+Type:
+
+Text
+
+Purpose:
+
+Configuration profile name
+
+
+axs_budgetweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Budget scoring weight
+
+
+axs_authorityweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Authority scoring weight
+
+
+axs_needweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Need scoring weight
+
+
+axs_timingweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Timing scoring weight
+
+
+axs_accountfitweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Account fit scoring weight
+
+
+axs_creditweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Credit eligibility scoring weight
+
+
+axs_branchroutingweight
+
+Type:
+
+Whole Number
+
+Purpose:
+
+Branch routing scoring weight
+
+
+axs_highconfidencethreshold
+
+Type:
+
+Decimal
+
+Purpose:
+
+High confidence boundary
+
+
+axs_mediumconfidencethreshold
+
+Type:
+
+Decimal
+
+Purpose:
+
+Medium confidence boundary
+
+
+axs_active
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Enable configuration profile
