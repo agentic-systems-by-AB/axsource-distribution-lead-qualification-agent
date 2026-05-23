@@ -73,3 +73,24 @@ Create dedicated environments for:
 - AXS-DISTAI-PRD
 - AXS-DISTAI-CLEAN
 - AXS-DISTAI-DEMO
+
+## Copilot Studio Findings
+
+Environment visibility verified.
+
+Supported environments visible:
+
+- Sales Trial
+- axt2-sandbox
+- AX5D365AI2026
+- AX/AGPL_CRM2023
+
+Default environment:
+
+- AXSource (default)
+
+Decision:
+
+Do not use the default environment for product development.
+
+Dedicated ISV environments remain required.
