@@ -320,3 +320,103 @@ Date Time
 Purpose:
 
 Audit timestamp
+
+## axs_BranchTerritory Columns
+
+branchterritoryid
+
+Type:
+
+GUID
+
+Purpose:
+
+Primary key
+
+
+axs_name
+
+Type:
+
+Text
+
+Purpose:
+
+Territory name
+
+
+axs_branchteam
+
+Type:
+
+Lookup → Team
+
+Purpose:
+
+Owning branch
+
+
+axs_region
+
+Type:
+
+Text
+
+Purpose:
+
+Region name
+
+
+axs_country
+
+Type:
+
+Text
+
+Purpose:
+
+Country
+
+
+axs_stateprovince
+
+Type:
+
+Text
+
+Purpose:
+
+State or province
+
+
+axs_postalcoderange
+
+Type:
+
+Text
+
+Purpose:
+
+Routing range
+
+
+axs_defaultowner
+
+Type:
+
+Lookup → System User
+
+Purpose:
+
+Fallback seller assignment
+
+
+axs_active
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Routing availability
