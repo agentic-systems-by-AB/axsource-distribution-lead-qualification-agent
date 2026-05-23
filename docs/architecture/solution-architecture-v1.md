@@ -243,3 +243,42 @@ AppSource package
 Validation rule:
 
 Every release must install successfully into CLEAN with zero manual configuration fixes.
+
+## External Dependency Policy
+
+Approved v1 dependencies:
+
+- Dataverse
+- Dynamics 365 Sales
+- Copilot Studio
+- Power Automate
+- Microsoft Teams
+- Public web grounding
+
+
+Explicitly excluded:
+
+- ERP integrations
+- Azure-hosted APIs
+- Customer-managed AI endpoints
+- SharePoint knowledge
+- External product information systems
+- Third-party credit bureau APIs
+- Custom connectors
+- AXSource-hosted services
+
+
+Future candidates:
+
+v2
+
+- Dynamics 365 Finance and Supply Chain
+- SAP
+- Oracle
+- Infor
+- Epicor
+
+
+Rule:
+
+No external dependency becomes a runtime requirement in v1.
