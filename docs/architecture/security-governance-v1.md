@@ -25,3 +25,100 @@ Security categories:
 - Responsible AI
 - Audit logging
 - Compliance controls
+
+## Dataverse Security Roles
+
+Role 1
+
+Name:
+
+AXS Distribution Seller
+
+
+Purpose:
+
+End-user seller access
+
+
+Permissions:
+
+Read:
+
+- Lead
+- Qualification History
+- Activities
+
+Create:
+
+- Tasks
+- Notes
+
+No direct configuration access
+
+
+Role 2
+
+Name:
+
+AXS Distribution Manager
+
+
+Purpose:
+
+Sales manager oversight
+
+
+Permissions:
+
+Seller permissions plus:
+
+- approval actions
+- qualification review
+- reporting access
+
+
+Role 3
+
+Name:
+
+AXS Distribution Administrator
+
+
+Purpose:
+
+System administration
+
+
+Permissions:
+
+- environment configuration
+- connection references
+- environment variables
+- qualification settings
+
+
+Role 4
+
+Name:
+
+AXS Distribution Agent Service Role
+
+
+Purpose:
+
+Agent execution identity
+
+
+Permissions:
+
+- qualification writes
+- qualification history create/update
+- activity creation
+
+Restrictions:
+
+No Account ownership changes
+
+No Contact ownership changes
+
+No Opportunity creation
