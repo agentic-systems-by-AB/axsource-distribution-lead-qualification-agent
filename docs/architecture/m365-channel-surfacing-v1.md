@@ -204,3 +204,31 @@ Sales Opportunity Agent
 Sales Research Agent
 
 Sales Close Agent
+
+## Future Surface Roadmap
+
+v1:
+
+- Dynamics 365 Sales
+- Teams approvals
+- Copilot Studio embedded experience
+
+
+v1.x:
+
+- Sales workspace dashboard
+- Manager dashboard
+- Outlook draft review experience
+
+
+v2:
+
+- Microsoft 365 Copilot integration
+- Opportunity Agent handoff
+- ERP-aware experiences
+- Cross-agent workflow experiences
+
+
+Rule:
+
+New surfaces should reduce seller effort, not create duplicate workflows.
