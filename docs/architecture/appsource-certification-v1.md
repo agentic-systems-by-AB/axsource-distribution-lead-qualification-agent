@@ -176,3 +176,48 @@ Documentation package must be complete before certification submission.
 Rule:
 
 Missing documentation blocks release readiness.
+
+## Certification Submission Evidence
+
+Technical evidence:
+
+- Managed solution package
+- Solution Checker output
+- CLEAN environment install screenshots
+- Upgrade validation screenshots
+- Connection reference validation evidence
+- Environment variable validation evidence
+
+
+Responsible AI evidence:
+
+- Human approval workflow screenshots
+- Approval adaptive card screenshots
+- Confidence behavior examples
+- Qualification explainability examples
+
+
+Operational evidence:
+
+- Support process documentation
+- Shared support mailbox evidence
+- Release version history
+- Support SLA definition
+
+
+Marketplace evidence:
+
+- Listing screenshots
+- Pricing screenshots
+- License plan screenshots
+- Category selection evidence
+
+
+Rule:
+
+Evidence should be collected continuously during development.
+
+
+Rule:
+
+Submission preparation should assemble artifacts, not create them.
