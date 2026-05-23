@@ -225,3 +225,58 @@ Create seller task and pause workflow
 Rule:
 
 Approval is mandatory for all external or shared-data actions.
+
+## Environment Variable Usage
+
+EV_BING_GROUNDING_ENABLED
+
+Used by:
+
+Copilot orchestration
+
+
+EV_DEFAULT_BRANCH_FALLBACK
+
+Used by:
+
+Branch recommendation workflow
+
+
+EV_CREDIT_THRESHOLD
+
+Used by:
+
+Credit eligibility review
+
+
+EV_CONFIDENCE_HIGH
+
+Used by:
+
+Confidence evaluation
+
+
+EV_CONFIDENCE_MEDIUM
+
+Used by:
+
+Confidence evaluation
+
+
+EV_DEFAULT_OWNER_FALLBACK
+
+Used by:
+
+Routing workflow
+
+
+EV_SUPPORT_EMAIL
+
+Used by:
+
+Support and workflow notifications
+
+
+Rule:
+
+No flow or agent behavior should contain tenant-specific hardcoded values.
