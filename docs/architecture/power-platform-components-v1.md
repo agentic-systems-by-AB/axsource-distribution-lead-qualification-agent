@@ -391,3 +391,51 @@ Approval required
 Rule:
 
 Shared master data requires human review.
+
+## Error Handling and Resilience
+
+Lead Qualification Trigger
+
+On failure:
+
+Create Qualification Task
+
+Write failure details to axs_QualificationHistory
+
+
+Public web grounding unavailable:
+
+Continue execution
+
+Reduce confidence score
+
+
+Branch routing unresolved:
+
+Apply:
+
+EV_DEFAULT_BRANCH_FALLBACK
+
+
+Owner unresolved:
+
+Apply:
+
+EV_DEFAULT_OWNER_FALLBACK
+
+
+Approval timeout:
+
+Create seller task
+
+Pause downstream actions
+
+
+Rule:
+
+Flow failures should degrade behavior, not terminate qualification entirely.
+
+
+Rule:
+
+No failed flow should create duplicate qualification records.
