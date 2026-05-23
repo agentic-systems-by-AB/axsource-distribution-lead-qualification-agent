@@ -125,3 +125,25 @@ Do not reuse for ISV development.
 Reason:
 
 Existing shared workload and incompatible with target product topology.
+
+## Sales Trial Assessment
+
+Environment type:
+Trial
+
+Dataverse:
+Present
+
+Auditing:
+Enabled
+
+Managed Environment:
+No
+
+Finding:
+
+Managed Environment activation capability not visible.
+
+Status:
+
+Needs later validation during dedicated environment creation.
