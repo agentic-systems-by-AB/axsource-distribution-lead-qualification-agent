@@ -154,3 +154,39 @@ Approved actions execute:
 - draft email
 - task creation
 - follow-up activities
+
+## Trust Boundaries
+
+Customer tenant owns:
+
+- Dataverse data
+- Dynamics 365 Sales records
+- Copilot execution
+- Power Automate execution
+- DLP policies
+- telemetry
+- approvals
+- credentials
+
+
+AXSource owns:
+
+- managed solution
+- packaging
+- product IP
+- AppSource publishing
+
+
+AXSource does NOT host:
+
+- customer data
+- AI memory
+- enrichment databases
+- external APIs
+- centralized telemetry
+- customer prompts
+
+
+Trust model:
+
+Customer-tenant execution only
