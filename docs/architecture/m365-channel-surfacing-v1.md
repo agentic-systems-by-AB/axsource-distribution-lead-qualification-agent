@@ -112,3 +112,47 @@ Future candidates:
 Rule:
 
 Seller should not leave Lead workspace to review qualification output.
+
+## Microsoft Teams Surfacing
+
+Primary purpose:
+
+Approval and seller notification channel
+
+
+Teams artifacts:
+
+Adaptive cards:
+
+- Qualification approval request
+- Qualification completed notification
+- Missing information request
+- Follow-up reminder
+
+
+Adaptive card contents:
+
+- Lead name
+- Company
+- Qualification score
+- Confidence score
+- Recommended owner
+- Recommended branch
+- Conflict findings
+- Approval actions
+
+
+Available actions:
+
+Approve
+
+Reject
+
+Request more information
+
+
+Rule:
+
+Teams actions execute workflow responses only.
+
+No business logic executes inside Teams.
