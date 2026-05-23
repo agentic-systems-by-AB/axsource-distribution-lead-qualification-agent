@@ -118,3 +118,61 @@ No AppSource submission with unresolved Critical findings.
 Rule:
 
 CLEAN import failures block release.
+
+## Required Documentation Checklist
+
+Required documents:
+
+User Guide
+
+Administrator Guide
+
+Privacy Policy
+
+Terms of Use
+
+Support Guide
+
+Responsible AI Statement
+
+Release Notes
+
+Architecture Overview
+
+Licensing Guide
+
+
+Required media:
+
+Product logo
+
+Icons
+
+Screenshots
+
+Demo video
+
+Overview presentation
+
+
+Required validation artifacts:
+
+Solution Checker report
+
+CLEAN install evidence
+
+Validation screenshots
+
+Test notes
+
+Version history
+
+
+Rule:
+
+Documentation package must be complete before certification submission.
+
+
+Rule:
+
+Missing documentation blocks release readiness.
