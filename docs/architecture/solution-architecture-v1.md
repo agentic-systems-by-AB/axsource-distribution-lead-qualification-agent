@@ -308,3 +308,59 @@ Constraints:
 Operational constraint:
 
 Design decisions should favor low support overhead over feature breadth.
+
+## Architecture Decision Record
+
+ADR-001
+
+Decision:
+
+Customer-tenant execution only
+
+Reason:
+
+Avoid AXSource-hosted infrastructure and simplify AppSource certification
+
+
+ADR-002
+
+Decision:
+
+Human approval before external actions
+
+Reason:
+
+Reduce Responsible AI and certification risk
+
+
+ADR-003
+
+Decision:
+
+Dataverse plus public web grounding
+
+Reason:
+
+Balance enrichment value with implementation simplicity
+
+
+ADR-004
+
+Decision:
+
+Dedicated environments only
+
+Reason:
+
+Avoid contamination from shared AX environments
+
+
+ADR-005
+
+Decision:
+
+GitHub + Codespaces
+
+Reason:
+
+Local installation restricted and browser-first development supported
