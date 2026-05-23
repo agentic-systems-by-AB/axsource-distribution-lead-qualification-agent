@@ -163,3 +163,87 @@ Rules:
 - No direct commits to main
 - Squash merge feature branches
 - One feature per branch
+
+
+## GitHub Actions Pipeline Design
+
+Pipeline 1
+
+Name:
+
+solution-export.yml
+
+Purpose:
+
+Export unmanaged solution from DEV
+
+
+Pipeline 2
+
+Name:
+
+solution-unpack.yml
+
+Purpose:
+
+Unpack solution into source control
+
+
+Pipeline 3
+
+Name:
+
+solution-checker.yml
+
+Purpose:
+
+Run Power Platform Solution Checker
+
+
+Pipeline 4
+
+Name:
+
+managed-build.yml
+
+Purpose:
+
+Create managed solution package
+
+
+Pipeline 5
+
+Name:
+
+import-test.yml
+
+Purpose:
+
+Import managed solution into TEST
+
+
+Pipeline 6
+
+Name:
+
+import-clean.yml
+
+Purpose:
+
+Import managed solution into CLEAN
+
+
+Pipeline 7
+
+Name:
+
+release-package.yml
+
+Purpose:
+
+Create AppSource release artifacts
+
+
+Rule:
+
+Pipeline execution uses service principal authentication only.
