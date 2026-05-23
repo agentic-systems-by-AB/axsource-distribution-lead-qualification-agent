@@ -179,3 +179,43 @@ Behavior:
 Rule:
 
 Confidence never increases autonomy beyond human approval boundaries.
+
+## Human Approval Model
+
+Autonomous actions allowed:
+
+- Read Dataverse records
+- Execute BANT+ evaluation
+- Execute channel classification
+- Generate qualification narrative
+- Compute confidence score
+- Write qualification results
+- Create audit records
+- Create notes and tasks
+
+
+Approval required:
+
+- Send emails
+- Reassign ownership
+- Create Opportunities
+- Update Account records
+- Update Contact records
+- Execute seller-facing actions
+
+
+Approval channels:
+
+- Teams adaptive card
+- Dynamics in-app confirmation
+- Future Microsoft 365 Copilot surfaces
+
+
+Approval rule:
+
+No external or shared-data action executes without explicit human confirmation.
+
+
+Responsible AI rule:
+
+Human approval is mandatory and cannot be disabled in v1.
