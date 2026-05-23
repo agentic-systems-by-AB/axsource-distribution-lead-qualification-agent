@@ -420,3 +420,112 @@ Yes/No
 Purpose:
 
 Routing availability
+
+## axs_ChannelClassification Columns
+
+channelclassificationid
+
+Type:
+
+GUID
+
+Purpose:
+
+Primary key
+
+
+axs_name
+
+Type:
+
+Text
+
+Purpose:
+
+Classification name
+
+
+axs_channelorigin
+
+Type:
+
+Choice
+
+Values:
+
+Direct
+
+Inbound
+
+Partner
+
+Distributor
+
+Trade Show
+
+Catalog
+
+Referral
+
+
+axs_leadsourcecategory
+
+Type:
+
+Choice
+
+Values:
+
+Inbound
+
+Channel
+
+Hybrid
+
+
+axs_partneraccount
+
+Type:
+
+Lookup → Account
+
+Purpose:
+
+Associated partner organization
+
+
+axs_channelconflictrisk
+
+Type:
+
+Choice
+
+Values:
+
+Low
+
+Medium
+
+High
+
+
+axs_existingagreementfound
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Existing distribution agreement found
+
+
+axs_active
+
+Type:
+
+Yes/No
+
+Purpose:
+
+Enable or disable classification
